@@ -2,3 +2,8 @@ java
 intro
 c#
 python
+c
+sql
+data science
+css
+html
