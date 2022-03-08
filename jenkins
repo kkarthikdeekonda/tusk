@@ -1,0 +1,13 @@
+agent{
+node{
+label "devserver"
+
+
+}
+}
+stages('checkout') {checkout([$class: 'GitSCM', branches: [[name: '**']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/kkarthikdeekonda/tusk.git']]])
+stages ('bulid') {
+echo "hello"
+}
+
+}
